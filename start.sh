@@ -1,6 +1,6 @@
 echo $LOGNAME
 sudo apt-get install sbuild schroot debootstrap apt-cacher-ng devscripts piuparts
-cp ./sbuildrc ~/.sbuildrc
+cp .sbuildrc ~/.sbuildrc
 sudo sbuild-adduser $LOGNAME
 sudo ln -sf ~/.sbuildrc /root/.sbuildrc
 newgrp sbuild
