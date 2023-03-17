@@ -11,5 +11,4 @@ newgrp sbuild
 sudo sbuild-createchroot --include=eatmydata,ccache unstable /srv/chroot/unstable-amd64-sbuild http://ftp.us.debian.org/debian
 sudo sbuild-update -udcar u
 cat /etc/apt/sources.list
-pwd && mkdir -pv myapp && cd myapp && sudo apt source aria2 qbittorrent-nox ffmpeg
-ls -la .
+pwd && mkdir -pv myapp && cd myapp && sudo apt source aria2 qbittorrent-nox ffmpeg && ls -la .
