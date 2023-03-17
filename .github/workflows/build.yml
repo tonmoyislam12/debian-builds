@@ -1,0 +1,16 @@
+name: deb packaging
+
+on:
+   workflow_dispatch
+
+jobs:
+  ci:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          bash start.sh
