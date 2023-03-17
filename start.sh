@@ -17,4 +17,4 @@ pwd && mkdir -pv mpeg && cd mpeg && sudo apt source ffmpeg && cd ..
 ls -a aria2
 ls -a qbit
 ls -a mpeg
-cd aria2/aria2-1.36.0/ && sudo sbuild
+cd aria2/ && sudo sbuild
